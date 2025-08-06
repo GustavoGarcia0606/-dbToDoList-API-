@@ -8,4 +8,4 @@ router.post('/tarefas', tarefaController.criarTarefa);
 router.put('/tarefas/:id', tarefaController.atualizarTarefas);
 router.delete('/tarefas/:id', tarefaController.deletarTarefa);
  
- 
+ module.exports = router;
