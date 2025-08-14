@@ -10,5 +10,5 @@ const tarefaRoutes = require('./routes/tarefaRoutes');
 app.use('/', tarefaRoutes);
 
 app.listen(3000, () => {
-    console.log(`Servidor rodando na porta `);
+    console.log(`Servidor rodando na porta 3000`);
 });
