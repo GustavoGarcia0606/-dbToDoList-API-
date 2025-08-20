@@ -3,7 +3,6 @@ const db = require('../config/db');
 async function listarQuery() {
   const [resultado] = await db.query("SELECT * FROM tarefas");
   
-  // Mapeia cada objeto para chave minúscula
   return resultado.map(({ id, Titulo, Descricao, status, prioridade, data_entrega }) => ({
     id,
     titulo: Titulo,
